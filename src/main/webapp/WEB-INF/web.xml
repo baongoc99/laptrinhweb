@@ -54,4 +54,21 @@
   </servlet-mapping>
   
   
+	<servlet>
+		<servlet-name>MyServlet1</servlet-name>
+		<jsp-file>/DTconfig.jsp</jsp-file>
+		<init-param>
+			<param-name>username</param-name>
+			<param-value>baongoc99</param-value>
+		</init-param>
+		<init-param>
+			<param-name>password</param-name>
+			<param-value>nguyenbaongoc99</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>MyServlet1</servlet-name>
+	<url-pattern>/DTconfig</url-pattern>
+	</servlet-mapping>
+
 </web-app>
